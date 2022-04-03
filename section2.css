@@ -1,0 +1,81 @@
+.secondpage {
+  background: url("/img/tesla-silver.jpg") no-repeat center center/cover;
+  height: 600px;
+  width: 824px;
+}
+
+.sidetext {
+  font-family: "gothamSSm";
+  width: 336px;
+  height: 476px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 900px;
+}
+
+.order-now-two :hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.order-now-two button {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.order-button-two {
+  width: 200px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 550;
+  line-height: 14.4px;
+  /* color: rgb(255, 255, 255); */
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 500px;
+  left: 140px;
+  /* background-repeat: no-repeat; */
+}
+
+#par1,
+#par2,
+#par3 {
+  font-size: 14px;
+}
+
+.headertwo {
+  font-size: 28px;
+
+  font-weight: 1100;
+
+  line-height: 36px;
+}
+
+#par1 a {
+  color: black;
+}
+
+.circle-learn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 26px;
+  position: absolute;
+  bottom: -70px;
+}
+
+.circle-learn a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-learn {
+  font-size: 12px;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}

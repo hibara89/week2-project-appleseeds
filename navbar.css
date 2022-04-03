@@ -1,0 +1,81 @@
+/* * {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+.h1-logo {
+  padding-left: 32px;
+  display: flex;
+}
+
+.logo {
+  padding: 0 16px;
+}
+
+.navbar .list-center {
+  display: flex;
+  font-family: "gothamSSm";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  list-style: none;
+  justify-content: center;
+
+  height: 56px;
+  width: 599px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.list-center li {
+  padding: 4px 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.list-center a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.list-right {
+  display: flex;
+  font-family: "gothamSSm";
+  font-weight: bold;
+  font-size: 14px;
+  list-style: none;
+  /* justify-content: flex-end; */
+  /* padding-right: 32px; */
+  height: 56px;
+  width: 280px;
+}
+
+.list-right li {
+  padding: 4px 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  font-family: "gothamSSm";
+  font-weight: 3000;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 1192px;
+  height: 48px;
+  margin: 0;
+  padding: 0 24px;
+}
